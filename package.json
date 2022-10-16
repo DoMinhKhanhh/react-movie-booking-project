@@ -76,5 +76,7 @@
   },
   "devDependencies": {
     "sass": "^1.32.2"
-  }
+  },
+  "homepage":"https://dominhkhanh2k.github.io/react-movie-booking-project"
+
 }

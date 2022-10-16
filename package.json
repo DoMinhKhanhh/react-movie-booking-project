@@ -77,6 +77,13 @@
   "devDependencies": {
     "sass": "^1.32.2"
   },
-  "homepage":"https://dominhkhanh2k.github.io/react-movie-booking-project"
-
+  "homepage":"https://dominhkhanh2k.github.io/react-movie-booking-project",
+  "scripts":{
+	"predeploy":"npm run build",
+	"deploy": "gh-pages -d build",
+	"start": "react-scripts start",
+    	"build": "react-scripts build",
+    	"test": "react-scripts test",
+    	"eject": "react-scripts eject"
+  }
 }
